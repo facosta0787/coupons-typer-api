@@ -1,0 +1,5 @@
+{
+  "version": 2,
+  "name": "coupons-typer-api",
+  "builds": [{ "src": "index.js", "use": "@now/node-server", "config": { "maxLambdaSize": "50mb" } }]
+}
